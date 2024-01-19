@@ -1,0 +1,7 @@
+.idea
+__pycache__/
+*.pyc
+*.egg*
+_build/
+.DS_Store
+.vscode/
