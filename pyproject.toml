@@ -5,8 +5,11 @@ description = "Codebase for compiling fantasy football historical data for Drew'
 authors = []
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.11"
+python = ">=3.9,<3.11"
 click = "*"
+sqlalchemy = "*"
+alembic = "*"
+psycopg2 = "*"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
