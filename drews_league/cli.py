@@ -4,7 +4,7 @@ import logging
 
 import click
 
-from <pkg_name> import __version__
+from drews_league import __version__
 
 
 @click.group()

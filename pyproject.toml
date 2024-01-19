@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "<pkg_name>"
+name = "drews_league"
 version = "0.0.0"
-description = "<pkg_description>"
+description = "Codebase for compiling fantasy football historical data for Drew's League."
 authors = []
 
 [tool.poetry.dependencies]
@@ -13,7 +13,7 @@ pytest = "*"
 pre_commit = "*"
 
 [tool.poetry.scripts]
-<pkg_name> = "<pkg_name>.cli:cli"
+drews_league = "drews_league.cli:cli"
 
 [build-system]
 requires = ["poetry-core"]
